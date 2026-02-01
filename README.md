@@ -17,4 +17,4 @@ English
 
 ### Goal
 Establishing a secure, self-sufficient
-cloud haven in New 
+cloud haven in New Zealand
