@@ -18,3 +18,4 @@ English
 ### Goal
 Establishing a secure, self-sufficient
 cloud haven in New 
+S
