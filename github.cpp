@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-int operatingCost =16000000;
+long long operatingCost =16000000;
 
     cout << "Apple inc Net Balance $ " <<1500000+650000+operatingCost; 
     cout << "\nTesla Cloud Service Net Balance $ "<<600000+50000+operatingCost;
