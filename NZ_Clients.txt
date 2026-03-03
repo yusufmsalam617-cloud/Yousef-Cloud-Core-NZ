@@ -1,0 +1,6 @@
+yousef cloud| units:  57 | Total: $6.3342e+06
+tesla| units:  64 | Total: $5.865e+06
+appel| units:  39 | Total: $4.255e+06
+jeep| units:  58 | Total: $5376250.00
+tensent| units:  160 | Total: $17595000.00
+sammsong| units:  83 | Total: $9149400.00
