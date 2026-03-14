@@ -6,3 +6,4 @@ tensent| units:  160 | Total: $17595000.00
 sammsong| units:  83 | Total: $9149400.00
 yousef cloud| units:  53 | Total: $6900000.00
 smc| units:  160 | Total: $17595000.00
+spotifi| units:  213 | Total: $23460000.00tesla| units:  373 | Total: $41055000.00
