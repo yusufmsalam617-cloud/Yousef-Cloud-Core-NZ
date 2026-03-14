@@ -16,16 +16,28 @@ else if(t == 2) {bas1ePrice = 100000; }
 if(l == 2){bas1ePrice = bas1ePrice*1.20; }
 if(d == 2){bas1ePrice = bas1ePrice*0.85; }
 return bas1ePrice*n;
+const double serverUnitCost=45000;
+double totalGlobalRevenue=0;
+int totalGlobalUnits=0;
+
 }
     int main()
 {
 ofstream clientFile;
 clientFile.open("NZ_Clients.txt ", ios::app);
 CloudRecord client1;
+string password;
+cout<<"pleas enter the passowrd "<<endl;
+cin>>password;
+if (password!="yousefnz")
+{cout<<"Acccess Denied ! Sestems locked."<<endl;
+    return 0;
+}    
 
  while (isSYstemOperational)
  {
 if(isSYstemOperational == false){
+    
 cout<<"We apologize for the temporary interruption. "
     <<"Our global infrastructure is currently undergoing strategic optimization to enhance "
     <<"your data sovereignty in New Zealand. "
@@ -72,7 +84,7 @@ double taxValue = finalPrice*0.15;
 double grandTotal = finalPrice+taxValue;
 client1. bonus = client1. totalServers/15;
 int finalUnits = client1.totalServers+client1.bonus;
-clientFile << client1.customerName <<"| units:  "<<finalUnits<< " | Total: $"<<grandTotal <<endl;
+clientFile <<fixed <<setprecision(2) << client1.customerName <<"| units:  "<<finalUnits<< " | Total: $"<<grandTotal <<endl;
 cout<<"EnterPrise Name: "<<client1.customerName <<endl;
 cout<<"servers number: "<<client1.totalServers <<endl;
 cout<<"you got bouns"<<client1.bonus <<endl;

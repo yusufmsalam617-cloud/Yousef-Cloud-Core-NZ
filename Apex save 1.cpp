@@ -16,6 +16,10 @@ else if(t == 2) {bas1ePrice = 100000; }
 if(l == 2){bas1ePrice = bas1ePrice*1.20; }
 if(d == 2){bas1ePrice = bas1ePrice*0.85; }
 return bas1ePrice*n;
+const double serverUnitCost=45000;
+double totalGlobalRevenue=0;
+int totalGlobalUnits=0;
+
 }
     int main()
 {
@@ -26,6 +30,13 @@ CloudRecord client1;
  while (isSYstemOperational)
  {
 if(isSYstemOperational == false){
+string password;
+cout<<"pleas enter the passowrd "<<endl;
+cin>>password;
+if (password!="yousefnz")
+{cout<<"Acccess Denied ! Sestems locked."<<endl;
+    return 0;
+}    
 cout<<"We apologize for the temporary interruption. "
     <<"Our global infrastructure is currently undergoing strategic optimization to enhance "
     <<"your data sovereignty in New Zealand. "
