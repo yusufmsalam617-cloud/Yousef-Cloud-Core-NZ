@@ -33,11 +33,9 @@ if (password!="yousefnz")
 {cout<<"Acccess Denied ! Sestems locked."<<endl;
     return 0;
 }    
-
  while (isSYstemOperational)
  {
 if(isSYstemOperational == false){
-    
 cout<<"We apologize for the temporary interruption. "
     <<"Our global infrastructure is currently undergoing strategic optimization to enhance "
     <<"your data sovereignty in New Zealand. "
