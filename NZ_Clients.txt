@@ -9,3 +9,5 @@ smc| units:  160 | Total: $17595000.00
 spotifi| units:  213 | Total: $23460000.00tesla| units:  373 | Total: $41055000.00
 yousef cloud| units:  213 | Total: $23460000.00
 yousef cloud| units:  213 | Total: $23460000.00
+sturbucs| units:  141 | Total: $9177000.00
+yousef cloud| units:  213 | Total: $23000000.00
